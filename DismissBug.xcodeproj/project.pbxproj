@@ -14,6 +14,7 @@
 		8B28C4E219D61707007DA353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B28C4E119D61707007DA353 /* Images.xcassets */; };
 		8B28C4E519D61707007DA353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B28C4E319D61707007DA353 /* LaunchScreen.xib */; };
 		8B28C4F119D61707007DA353 /* DismissBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B28C4F019D61707007DA353 /* DismissBugTests.m */; };
+		8B28C4FC19D617EC007DA353 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B28C4FB19D617EC007DA353 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8B28C4EA19D61707007DA353 /* DismissBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DismissBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B28C4EF19D61707007DA353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B28C4F019D61707007DA353 /* DismissBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissBugTests.m; sourceTree = "<group>"; };
+		8B28C4FA19D617EC007DA353 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		8B28C4FB19D617EC007DA353 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8B28C4E119D61707007DA353 /* Images.xcassets */,
 				8B28C4E319D61707007DA353 /* LaunchScreen.xib */,
 				8B28C4D419D61707007DA353 /* Supporting Files */,
+				8B28C4FA19D617EC007DA353 /* ModalViewController.h */,
+				8B28C4FB19D617EC007DA353 /* ModalViewController.m */,
 			);
 			path = DismissBug;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B28C4FC19D617EC007DA353 /* ModalViewController.m in Sources */,
 				8B28C4DD19D61707007DA353 /* ViewController.m in Sources */,
 				8B28C4DA19D61707007DA353 /* AppDelegate.m in Sources */,
 				8B28C4D719D61707007DA353 /* main.m in Sources */,
